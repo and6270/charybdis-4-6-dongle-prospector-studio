@@ -103,7 +103,6 @@
     };
   };
   macros {
-    // @
     alt64: alt64 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -115,7 +114,6 @@
         ;
     };
 
-    // #
     alt35: alt35 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -127,7 +125,6 @@
         ;
     };
 
-    // $
     alt36: alt36 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -139,7 +136,6 @@
         ;
     };
 
-    // ^
     alt94: alt94 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -151,7 +147,6 @@
         ;
     };
     
-    // &
     alt38: alt38 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -163,7 +158,6 @@
         ;
     };
     
-    // ;
     alt59: alt59 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -175,7 +169,6 @@
         ;
     };
     
-    // :
     alt58: alt58 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -187,7 +180,6 @@
         ;
     };
     
-    // "
     alt34: alt34 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -199,7 +191,6 @@
         ;
     };
     
-    // |
     alt124: alt124 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -212,7 +203,6 @@
         ;
     };
     
-    // ~
     alt126: alt126 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -225,7 +215,6 @@
         ;
     };
     
-    // \ 
     alt92: alt92 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -237,7 +226,6 @@
         ;
     };
     
-    // ,
     alt44: alt44 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -249,7 +237,6 @@
         ;
     };
     
-    // .
     alt46: alt46 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -261,7 +248,6 @@
         ;
     };
     
-    // '
     alt39: alt39 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -273,7 +259,6 @@
         ;
     };
     
-    // ?
     alt63: alt63 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -285,7 +270,6 @@
         ;
     };
     
-    // [
     alt91: alt91 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -297,7 +281,6 @@
         ;
     };
     
-    // ]
     alt93: alt93 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -309,7 +292,6 @@
         ;
     };
     
-    // фиг.откр скобка
     alt123: alt123 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -322,7 +304,6 @@
         ;
     };
     
-    // <
     alt60: alt60 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -334,7 +315,6 @@
         ;
     };
     
-    // >
     alt62: alt62 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -346,7 +326,6 @@
         ;
     };
     
-    // фиг.закр.скобка
     alt125: alt125 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -359,7 +338,6 @@
         ;
     };
 
-    // `
     alt96: alt96 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -371,7 +349,6 @@
         ;
     };
 
-    // №
     alt252: alt252 {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
@@ -384,6 +361,7 @@
         ;
     };
   };
+
   combos {
     compatible = "zmk,combos";
     timeout-ms = <20>;
@@ -414,14 +392,6 @@
       key-positions = <5 9>;
       bindings = <&to GAME>;
     };
-    //combo_esc {
-    //  key-positions = <1 2>;
-    //  bindings = <&kp ESCAPE>;
-    //};
-    //combo_tab {
-    //  key-positions = <2 3>;
-    //  bindings = <&kp TAB>;
-    //};
     combo_cdel {
       key-positions = <11 12>;
       bindings = <&kp LC(BACKSPACE)>;
