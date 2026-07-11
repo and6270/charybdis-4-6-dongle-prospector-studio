@@ -421,7 +421,7 @@
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────────┤
             &kp LG(SPACE)  &mt LGUI Z       &kp X         &kp C         &lt 3 V       &kp B             &kp N         &kp M      &kp COMMA      &kp DOT     &mt LGUI GRAVE  &kp RIGHT_BRACKET
         // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────────╯
-                                   &alt44   &kp SPACE    &lt 4 RET &mt LSHFT LEFT &mt LCTRL RIGHT       &kp BSPC     &alt46       &kp BSPC
+                                   &alt44   &kp SPACE    &lt 4 RET &mt LSHFT LEFT &mt LCTRL RIGHT       &kp BSPC     &alt46       &kp LGUI
         //                                           ╰─────────────┤─────────────┤─────────────┤   ├─────────────┼─────────────╯
         >;
     };
@@ -432,8 +432,8 @@
       bindings = <
         &trans   &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans     &trans
         &trans   &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans     &trans 
-        &trans   &kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans            &trans &mkp MB1 &mkp MB2 &mkp MB3 &trans     &trans
-        &trans   &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans     &trans
+        &trans   &trans &kp LALT &kp LSHFT &kp LCTRL &trans            &trans &mkp MB1 &mkp MB2 &mkp MB3 &trans     &trans
+        &trans   &kp LGUI   &trans   &trans    &mo 3    &trans            &trans &trans   &trans   &trans   &trans     &trans
                 &mkp MB1  &mkp MB2  &mkp MB3 &trans    &trans            &trans &trans   &trans                  
       >;
     };
