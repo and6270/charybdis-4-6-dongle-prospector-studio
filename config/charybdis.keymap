@@ -102,7 +102,288 @@
       mods = <(MOD_LSFT)>;
     };
   };
+  macros {
+    // @
+    alt64: alt64 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N6>
+        , <&macro_tap &kp KP_N4>
+        , <&macro_release &kp LALT>
+        ;
+    };
 
+    // #
+    alt35: alt35 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N3>
+        , <&macro_tap &kp KP_N5>
+        , <&macro_release &kp LALT>
+        ;
+    };
+
+    // $
+    alt36: alt36 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N3>
+        , <&macro_tap &kp KP_N6>
+        , <&macro_release &kp LALT>
+        ;
+    };
+
+    // ^
+    alt94: alt94 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N9>
+        , <&macro_tap &kp KP_N4>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // &
+    alt38: alt38 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N3>
+        , <&macro_tap &kp KP_N8>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // ;
+    alt59: alt59 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N5>
+        , <&macro_tap &kp KP_N9>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // :
+    alt58: alt58 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N5>
+        , <&macro_tap &kp KP_N8>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // "
+    alt34: alt34 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N3>
+        , <&macro_tap &kp KP_N4>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // |
+    alt124: alt124 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N1>
+        , <&macro_tap &kp KP_N2>
+        , <&macro_tap &kp KP_N4>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // ~
+    alt126: alt126 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N1>
+        , <&macro_tap &kp KP_N2>
+        , <&macro_tap &kp KP_N6>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // \ 
+    alt92: alt92 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N9>
+        , <&macro_tap &kp KP_N2>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // ,
+    alt44: alt44 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N44>
+        , <&macro_tap &kp KP_N44>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // .
+    alt46: alt46 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N4>
+        , <&macro_tap &kp KP_N6>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // '
+    alt39: alt39 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N3>
+        , <&macro_tap &kp KP_N9>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // ?
+    alt63: alt63 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N6>
+        , <&macro_tap &kp KP_N3>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // [
+    alt91: alt91 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N9>
+        , <&macro_tap &kp KP_N1>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // ]
+    alt93: alt93 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N9>
+        , <&macro_tap &kp KP_N3>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // {
+    alt123: alt123 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N1>
+        , <&macro_tap &kp KP_N2>
+        , <&macro_tap &kp KP_N3>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // <
+    alt60: alt60 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N6>
+        , <&macro_tap &kp KP_N0>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // >
+    alt62: alt62 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N6>
+        , <&macro_tap &kp KP_N2>
+        , <&macro_release &kp LALT>
+        ;
+    };
+    
+    // }
+    alt125: alt125 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N1>
+        , <&macro_tap &kp KP_N2>
+        , <&macro_tap &kp KP_N5>
+        , <&macro_release &kp LALT>
+        ;
+    };
+
+    // `
+    alt96: alt96 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N9>
+        , <&macro_tap &kp KP_N6>
+        , <&macro_release &kp LALT>
+        ;
+    };
+
+    // №
+    alt252: alt252 {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LALT>
+        , <&macro_tap &kp KP_N2>
+        , <&macro_tap &kp KP_N5>
+        , <&macro_tap &kp KP_N2>
+        , <&macro_release &kp LALT>
+        ;
+    };
+  };
   combos {
     compatible = "zmk,combos";
     timeout-ms = <20>;
@@ -133,14 +414,14 @@
       key-positions = <5 9>;
       bindings = <&to GAME>;
     };
-    combo_esc {
-      key-positions = <1 2>;
-      bindings = <&kp ESCAPE>;
-    };
-    combo_tab {
-      key-positions = <2 3>;
-      bindings = <&kp TAB>;
-    };
+    //combo_esc {
+    //  key-positions = <1 2>;
+    //  bindings = <&kp ESCAPE>;
+    //};
+    //combo_tab {
+    //  key-positions = <2 3>;
+    //  bindings = <&kp TAB>;
+    //};
     combo_cdel {
       key-positions = <11 12>;
       bindings = <&kp LC(BACKSPACE)>;
@@ -162,15 +443,15 @@
         display-name = "Base";
         bindings = <
         // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬────────────────╮
-               &kp ESC       &kp N1         &kp N2        &kp N3        &kp N4        &kp N5            &kp N6        &kp N7        &kp N8        &kp N9        &kp N0       &kp DEL
+               &kp F1       &kp F2         &kp F3        &kp F4        &kp F5        &kp F6             &kp F7        &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────────┤
-               &kp TAB       &kp Q          &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P      &kp LEFT_BRACKET
+               &kp ESC       &kp Q          &kp W         &kp E         &kp R    &mt LS(LG(Z)) T        &kp Y         &kp U         &kp I         &kp O         &kp P      &kp LEFT_BRACKET
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────────┤
-               &kp ESC       &kp A          &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L       &kp SEMI      &kp APOS
+               &kp TAB       &lt 2 A        &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L     &lt 2 SEMI      &kp APOS
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────────┤
-              &kp LSHFT      &kp Z          &kp X         &kp C         &kp V         &kp B             &kp N         &kp M      &kp COMMA      &kp DOT       &kp FSLH     &kp RIGHT_BRACKET
+            &kp LG(SPACE)  &mt LGUI Z       &kp X         &kp C         &lt 3 V       &kp B             &kp N         &kp M      &kp COMMA      &kp DOT     &mt LGUI GRAVE  &kp RIGHT_BRACKET
         // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────────╯
-                               &mo 1        &kp RET     &kp LEFT_GUI   &kp LCTRL    &kp SPACE      &kp LEFT_ALT     &mo 2       &kp BSPC
+                                   &alt44   &kp SPACE    &lt 4 RET &mt LSHFT LEFT &mt LCTRL RIGHT       &kp BSPC     &alt46       &kp BSPC
         //                                           ╰─────────────┤─────────────┤─────────────┤   ├─────────────┼─────────────╯
         >;
     };
@@ -182,8 +463,8 @@
         &trans   &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans     &trans
         &trans   &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans     &trans 
         &trans   &kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans            &trans &mkp MB1 &mkp MB2 &mkp MB3 &trans     &trans
-        &trans   &trans   &trans   &mo 3     &mo 2     &trans            &trans &trans   &trans   &trans   &trans     &trans
-                          &mkp MB1  &mkp MB2  &mkp MB3 &trans &trans          &trans &trans &trans                  
+        &trans   &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans     &trans
+                &mkp MB1  &mkp MB2  &mkp MB3 &trans    &trans            &trans &trans   &trans                  
       >;
     };
 
@@ -192,15 +473,15 @@
       display-name = "Symbol";
       bindings = <
       // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &trans         &trans       &trans         &trans      &sys_reset   &bootloader         &trans       &trans         &trans        &trans        &trans        &trans
+             &trans        &trans         &trans       &trans         &trans      &bootloader      &bootloader         &trans         &trans        &trans        &trans        &trans
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &trans         &trans       &kp UP         &trans       &trans         &trans           &kp N7       &kp N8         &kp N9        &kp N0        &kp HOME      &kp F1
+             &trans        &alt64         &alt60       &alt62         &alt92       &kp PRCNT         &alt124         &alt96         &alt123        &alt125        &alt63        &trans
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &trans       &kp LEFT       &kp DOWN     &kp RIGHT      &trans         &trans           &kp N4       &kp N5         &kp N6        &none         &trans        &kp F10
+             &trans        &trans      &kp KP_PLUS   &kp KP_MINUS    &kp EQUAL     &alt35           &alt38         &alt34       &kp LPAR      &kp RPAR        &trans        &trans
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-           &kp LEFT_ALT    &trans        &trans         &trans      &kp MINUS      &kp PLUS          &kp N1       &kp N2         &kp N3        &kp DOT       &trans        &kp F20
+             &trans        &kp EXCL    &kp KP_SLASH &kp KP_ASTERISK   &alt94      &kp UNDER           &alt36         &alt39         &alt91        &alt93        &alt126        &trans
       // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                           &trans        &trans         &trans        &trans       &trans            &trans        &trans        &trans
+                           &alt59        &trans         &trans        &trans       &trans            &trans        &alt58        &trans
       //                                           ╰─────────────┤─────────────┤─────────────┤   ├─────────────┼─────────────╯
       >;
     };
@@ -210,15 +491,15 @@
       display-name = "Number";
       bindings = <
       // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &trans        &trans         &trans       &trans         &trans       &trans          &bootloader    &sys_reset     &trans        &trans        &trans        &trans
+             &trans        &trans         &trans       &trans         &trans       &trans           &trans         &trans         &trans        &trans        &trans        &trans
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &trans        &kp EXCL       &kp AT      &kp HASH       &kp DLLR     &kp PRCNT         &kp CARET      &kp AMPS    &kp KP_MULTIPLY &kp LPAR      &kp RPAR      &kp DEL
+             &trans        &trans         &trans       &trans         &trans       &trans           &trans         &kp N4         &kp N5        &kp N6        &trans        &trans
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &trans        &trans         &trans       &trans         &trans       &trans           &trans          &trans      &trans        &trans        &trans        &trans
+             &trans        &trans         &trans       &trans         &trans       &trans           &trans         &kp N0         &kp N1        &kp N2        &kp N3        &trans
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &trans        &trans        &trans        &trans         &trans       &trans           &kp MINUS      &kp PLUS     &kp LBRC      &kp RBRC      &kp PIPE      &kp TILDE
+             &trans        &trans         &trans       &trans         &trans       &trans           &trans         &kp N9         &kp N8        &kp N7        &trans        &trans
       // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                           &trans        &trans         &trans        &trans       &trans            &trans        &trans        &trans
+                           &trans        &trans         &kp RET        &trans      &trans           &kp BSPC       &trans         &trans
       //                                           ╰─────────────┤─────────────┤─────────────┤   ├─────────────┼─────────────╯
       >;
     };
@@ -228,13 +509,13 @@
       display-name = "Function";
       bindings = <
       // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &trans        &trans         &trans       &trans         &trans       &trans           &trans         &trans         &trans        &trans        &trans        &trans
+             &trans        &trans         &trans       &trans        &kp CAPS     &kp KP_NUM           &trans         &trans         &trans        &trans        &trans        &trans
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &trans        &trans         &trans       &trans         &trans       &trans           &trans         &trans         &trans        &trans        &trans        &trans
+             &trans        &trans         &trans       &trans         &trans       &kp INS           &trans         &kp HOME      &kp PG_UP     &kp PG_DN     &kp END       &trans
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &trans        &trans         &trans       &trans         &trans        &sl 4           &trans         &trans         &trans        &trans        &trans        &trans
+             &trans        &trans         &trans       &trans         &trans       &kp DEL         &kp LC(MINUS)   &kp LEFT       &kp UP       &kp DOWN     &kp RIGHT  &kp LS(LC(MINUS))
       // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &trans        &trans         &trans       &trans         &trans       &trans           &trans         &trans         &trans        &trans        &trans        &to 0
+             &trans        &trans         &trans       &trans         &trans       &kp BSPC           &trans       &kp LC(LEFT)  &kp LC(UP)   &kp LC(DOWN)  &kp LC(RIGHT)     &trans
       // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                            &trans        &trans         &trans        &trans       &trans            &trans        &trans        &trans
       //                                           ╰─────────────┤─────────────┤─────────────┤   ├─────────────┼─────────────╯
